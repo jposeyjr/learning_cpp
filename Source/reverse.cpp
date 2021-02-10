@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 std::string reverseStr(std::string &str, int N) {
     std::string newStr = "";
