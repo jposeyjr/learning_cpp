@@ -9,6 +9,14 @@ enum Color {
     green, 
 };
 
+//struct or object 
+struct Employee {
+    int id{};
+    int age{};
+    double wage{};
+    std::string name{};
+};
+
 void printColor(Color color) {//how to get the none index value of an enum 
    switch(color) {
        case red: 
@@ -31,6 +39,7 @@ int main()
     int health = 100;
     void* ptr = &health;
     string str = "Hello"; 
+    Employee bob{10, 30, 65000.00, "bob"};
     int N = str.length();
     cout << reverseStr(str, N) << '\n' << "pointer location " << &N << '\n';
     Color house { blue }; //value is 1 
