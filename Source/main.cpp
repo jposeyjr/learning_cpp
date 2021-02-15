@@ -17,6 +17,7 @@ struct Employee {
     std::string name{};
 };
 
+
 void printColor(Color color) {//how to get the none index value of an enum 
    switch(color) {
        case red: 
@@ -50,6 +51,7 @@ int main()
     cin >> initialHeight;
  
     int seconds = 0;
+    
 
     while (!calculateAndPrintHeight(initialHeight, seconds++));
     return 0;
